@@ -1,0 +1,13 @@
+*conda install
+conda install -c conda-forge -c bioconda -c defaults abricate
+abricate --check
+abricate --list
+*get access to all data via installing bioperl--install Path::Tiny module first
+sudo apt-get install bioperl ncbi-blast+ gzip unzip git \
+  libjson-perl libtext-csv-perl libpath-tiny-perl liblwp-protocol-https-perl libwww-perl
+git clone https://github.com/tseemann/abricate.git
+./abricate/bin/abricate --check
+./abricate/bin/abricate --setupdb
+./abricate/bin/abricate ./abricate/test/assembly.fa
+*or simply download & move sequence file to work directory
+abricate assembly.fa (.txt)
