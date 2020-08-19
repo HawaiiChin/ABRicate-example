@@ -11,3 +11,5 @@ git clone https://github.com/tseemann/abricate.git
 ./abricate/bin/abricate ./abricate/test/assembly.fa
 *or simply download & move sequence file to work directory
 abricate assembly.fa (.txt)
+* for all commands
+abricate --help
