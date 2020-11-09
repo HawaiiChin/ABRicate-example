@@ -1,1 +1,4 @@
-% abricate --db card --quiet sequence file
+abricate --db card --quiet sequence file
+
+#using arg-annot database
+abricate --db argannot --quiet partaa
